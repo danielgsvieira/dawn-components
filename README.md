@@ -24,7 +24,7 @@ const model = ref('');
 
 <template>
   <form @submit>
-    <d-select v-model="model" :options=['foo', 'bar'] />
+    <d-select v-model="model" :options="['foo', 'bar']" />
   </form>
 </template>
 ```
